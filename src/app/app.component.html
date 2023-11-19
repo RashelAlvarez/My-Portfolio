@@ -224,7 +224,7 @@
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>-->
-
+        <!--
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
           <div class="portfolio-info">
@@ -234,7 +234,7 @@
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
-
+-->
        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
           <div class="portfolio-info">
@@ -314,20 +314,20 @@
         </div>
 
         <div class="col-lg-6">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form [formGroup]="correo"  class="php-email-form" (ngSubmit)="sendEmail()">
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" formControlName="name" required>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" formControlName="email" required>
               </div>
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" formControlName="subject" required>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" formControlName="message" required></textarea>
             </div>
             <div class="my-3">
               <div class="loading">Loading</div>

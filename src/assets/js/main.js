@@ -60,19 +60,14 @@ AOS.init();
   /**
    * Scrolls to an element with header offset
    */
-  const scrollto = (el) => {
-    let header = select('#header')
-    let offset = header.offsetHeight
+   window.onscroll = function() {scrollFunction()};
 
-    if (!header.classList.contains('header-scrolled')) {
-      offset -= 20
+  function scrollFunction() {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      document.querySelector(".navbar").classList.add("navbar-scrolled");
+    } else {
+      document.querySelector(".navbar").classList.remove("navbar-scrolled");
     }
-
-    let elementPos = select(el).offsetTop
-    window.scrollTo({
-      top: elementPos - offset,
-      behavior: 'smooth'
-    })
   }
 
   /**

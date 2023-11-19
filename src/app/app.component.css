@@ -74,8 +74,11 @@ body {
     background: transparent;
   }
   
-  #header.header-scrolled {
-    height: 60px;
+  .navbar-scrolled {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background: rgba(25, 28, 31, 0.8);
   }
   
@@ -519,6 +522,9 @@ body {
   /*--------------------------------------------------------------
   # About Me
   --------------------------------------------------------------*/
+  .about{
+    margin-top: 100px;
+  }
   .about .content h3 {
     font-weight: 700;
     font-size: 26px;
