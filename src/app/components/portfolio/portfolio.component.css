@@ -1,0 +1,46 @@
+@import 'boxicons';
+
+.portfolio .card-porfolio {
+  padding: 30px;
+  margin: 0 auto 30px auto;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.portfolio .card-img-top {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 200px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra el área del contenedor sin distorsionarse */
+}
+
+
+.portfolio .card-porfolio:hover {
+  border-color: #ec407a;
+}
+
+.portfolio .card-porfolio:hover .title a {
+  color: #ec407a;
+}
+
+.portfolio .card-porfolio i {
+  font-size: 36px;
+  line-height: 1;
+  color: #ec407a;
+}
+
+
+.portfolio .card-porfolio .card-title a {
+  color: #111;
+  transition: 0.3s;
+}
+
+.portfolio .card-porfolio .card-text {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
