@@ -34,8 +34,8 @@
   "contact":{
     "title": "Contact me",
     "social": "Social Profiles",
-    "email": "Correo",
-    "tlf": "Teléfono"
+    "email": "Email",
+    "tlf": "Phone"
   },
   "footer":{
     "description":"This app was developed with Angular."
