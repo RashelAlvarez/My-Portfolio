@@ -2,11 +2,11 @@
   <div class="container">
 
     <div class="section-title">
-      <span>About Me</span>
-      <h2 data-aos="fade-down">About Me</h2>
-      <p>I like listen to music and travel. I'm a self-taught person and passionate about technology.
+      <span>{{ 'about.title' | translate }}</span>
+      <h2 data-aos="fade-down">{{ 'about.title' | translate }}</h2>
+      <p>{{ 'about.subtitle_first' | translate }}
         <br>
-        I've 4 years of experience developing web applications.
+        {{ 'about.subtitle_second' | translate }}
       </p>
     </div>
 
@@ -17,18 +17,22 @@
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Rashel Alvarez</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+58 0424 4473798</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Valencia, Venezuela</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>{{ 'about.me.title_phone' | translate }}:</strong>
+                  <span>+58 0424 4473798</span>
+                </li>
+                <li><i class="bi bi-chevron-right"></i> <strong>{{ 'about.me.title_city' | translate }}:</strong>
+                  <span>Valencia, Venezuela</span>
+                </li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Engineer</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                <li><i class="bi bi-chevron-right"></i> <strong>{{ 'about.me.title_degree' | translate }}:</strong>
+                  <span>{{ 'about.me.degree' | translate }}</span>
+                </li>
+                <li><i class="bi bi-chevron-right"></i> <strong>{{ 'about.me.title_email' | translate }}:</strong>
                   <span>rashelalvarez21&#64;gmail.com</span>
                 </li>
-                <!--<li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>-->
               </ul>
             </div>
           </div>

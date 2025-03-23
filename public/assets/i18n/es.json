@@ -1,0 +1,43 @@
+{
+  "nombre": "Rashel Álvarez",
+  "saludo": "Desarrollador Backend",
+  "nav":{
+    "first": "Inicio",
+    "second": "Sobre mí",
+    "third": "Mis Habilidades",
+    "four": "Portafolio",
+    "five": "Contacto",
+    "idiom": "Traducción"
+  },
+  "about":{
+    "title": "Sobre mí",
+    "subtitle_first": "Me gusta escuchar música y viajar. Soy una persona autodidacta y apasionada por la tecnología.",
+    "subtitle_second":"Tengo 4 años de experiencia desarrollando aplicaciones web.",
+    "me":{
+      "title_phone": "Teléfono",
+      "title_city": "Ciudad",
+      "title_degree": "Grado",
+      "title_email": "Correo",
+      "degree": "Ingeniero en Computación"
+    }
+  },
+  "skills":{
+    "title": "Mis habilidades",
+    "subtitle": "Puedo desarrollar aplicaciones con estos lenguajes de programación y frameworks."
+  },
+  "portfolio":{
+    "title": "Portafolio",
+    "subtitle": "Aquí puedes ver una de las aplicaciones que he desarrollado.",
+    "first_app": "Catálogo de Productos y gestión de Pedidos",
+    "second_app": "API de Cliente Spring Boot con Angular Material"
+  },
+  "contact":{
+    "title": "Contacto",
+    "social": "Redes Sociales",
+    "email": "Correo",
+    "tlf": "Teléfono"
+  },
+  "footer":{
+    "description":"Esta aplicación fue desarrollada con Angular."
+  }
+}

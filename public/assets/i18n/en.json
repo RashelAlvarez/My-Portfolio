@@ -1,0 +1,43 @@
+{
+  "nombre": "Rashel Alvarez",
+  "saludo": "Backend Developer",
+  "nav":{
+    "first": "Home",
+    "second": "About",
+    "third": "Skills",
+    "four": "Portfolio",
+    "five": "Contact",
+    "idiom": "Traduction"
+  },
+  "about":{
+    "title": "About Me",
+    "subtitle_first": "I like listen to music and travel. I'm a self-taught person and passionate about technology.",
+    "subtitle_second":" I've 4 years of experience developing web applications.",
+    "me":{
+      "title_phone": "Phone",
+      "title_city": "City",
+      "title_degree": "Degree",
+      "title_email": "Email",
+      "degree": "Computer Engineer"
+    }
+  },
+  "skills":{
+    "title": "My Skills",
+    "subtitle": "I can develop applications with these programming languages and frameworks."
+  },
+  "portfolio":{
+    "title": "Portfolio",
+    "subtitle": "Here's one of the applications I've developed.",
+    "first_app": "Product Catalog and Order Management",
+    "second_app": "API Customer Spring Boot with Angular Material"
+  },
+  "contact":{
+    "title": "Contact me",
+    "social": "Social Profiles",
+    "email": "Correo",
+    "tlf": "Teléfono"
+  },
+  "footer":{
+    "description":"This app was developed with Angular."
+  }
+}
