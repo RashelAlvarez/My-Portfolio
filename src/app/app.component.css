@@ -283,6 +283,12 @@ h6 {
   color: #3b434a;
 }
 
+.navbar label {
+  font-size: 14px;
+  color: #3b434a;
+
+}
+
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
