@@ -29,7 +29,8 @@
     "title": "Portfolio",
     "subtitle": "Here's one of the applications I've developed.",
     "first_app": "Product Catalog and Order Management",
-    "second_app": "API Customer Spring Boot with Angular Material"
+    "second_app": "API Customer Spring Boot with Angular Material",
+    "details": "More details"
   },
   "contact":{
     "title": "Contact me",

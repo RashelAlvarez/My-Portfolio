@@ -29,7 +29,8 @@
     "title": "Portafolio",
     "subtitle": "Aquí puedes ver una de las aplicaciones que he desarrollado.",
     "first_app": "Catálogo de Productos y gestión de Pedidos",
-    "second_app": "API de Cliente Spring Boot con Angular Material"
+    "second_app": "API de Cliente Spring Boot con Angular Material",
+    "details": "Ver más"
   },
   "contact":{
     "title": "Contacto",
