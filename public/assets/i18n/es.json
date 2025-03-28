@@ -12,7 +12,8 @@
   "about":{
     "title": "Sobre mí",
     "subtitle_first": "Me gusta escuchar música y viajar. Soy una persona autodidacta y apasionada por la tecnología.",
-    "subtitle_second":"Tengo 4 años de experiencia desarrollando aplicaciones web.",
+    "subtitle_second":"Tengo 4 años de experiencia desarrollando aplicaciones web. ",
+    "subtitle_third": "He trabajado tanto en continuidad de aplicaciones ERP como en proyectos de mejoras y migraciones de sistemas.",
     "me":{
       "title_phone": "Teléfono",
       "title_city": "Ciudad",
@@ -30,6 +31,7 @@
     "subtitle": "Aquí puedes ver una de las aplicaciones que he desarrollado.",
     "first_app": "Catálogo de Productos y gestión de Pedidos",
     "second_app": "API de Cliente Spring Boot con Angular Material",
+    "third_app": "Microservicio de autenticación desarrollado en Laravel, JWT, PostgreSQL y Docker",
     "details": "Ver más"
   },
   "contact":{

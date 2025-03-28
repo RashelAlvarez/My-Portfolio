@@ -13,6 +13,7 @@
     "title": "About Me",
     "subtitle_first": "I like listen to music and travel. I'm a self-taught person and passionate about technology.",
     "subtitle_second":" I've 4 years of experience developing web applications.",
+    "subtitle_third": "I have worked both on ERP application continuity and on system improvement and migration projects.",
     "me":{
       "title_phone": "Phone",
       "title_city": "City",
@@ -30,6 +31,7 @@
     "subtitle": "Here's one of the applications I've developed.",
     "first_app": "Product Catalog and Order Management",
     "second_app": "API Customer Spring Boot with Angular Material",
+    "third_app": "Authentication microservice developed in Laravel,JWT, PostgreSQL, and Docker",
     "details": "More details"
   },
   "contact":{
