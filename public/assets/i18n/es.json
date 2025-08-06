@@ -32,6 +32,7 @@
     "first_app": "Catálogo de Productos y gestión de Pedidos",
     "second_app": "API de Cliente Spring Boot con Angular Material",
     "third_app": "Microservicio de autenticación desarrollado en Laravel, JWT, PostgreSQL y Docker",
+    "four_app": "Integración de Api JSONPlaceHolder, utilizando Laravel Sail",
     "details": "Ver más"
   },
   "contact":{
